@@ -1,19 +1,17 @@
 ### HR People Data Analysis with a focus on Attrition
 
-Status Completed
-Timing Oct 1, 2024 to Oct 2, 2024
-Owners Jessica Gutstein
+Author: Jessica Gutstein
 
-Overview
+## Overview
 Employee attrition rates are exceeding desired levels within the company. This project seeks to understand the root causes of employee attrition and identify data-driven solutions to improve employee retention and enhance overall organization performance. This project uses Excel, SQL (in BigQuery), Power BI, and Python (in Google Colab) to analyze attrition rates in a public HR dataset.
 
-Project Objectives
+## Project Objectives
 Define main variables causing attrition.
 Study the correlation between employee data variables.
 Create data visualizations to understand attrition causes.
 Provide business insights to improve employee retention.
 
-Strategy
+## Strategy
 Approach
 Analyze public HR dataset to extract and create insights using Excel, SQL, PowerBi, and Python.
 Target audience
