@@ -127,7 +127,7 @@ The following heatmap was created using the Pandas and Seaborn libraries in Pyth
 As indicated in the findings, this organization should prioritize enhancing retention among early-career professionals through a series of incentives designed to mitigate the likelihood of their departure, such as training development, opportunities for growth, and higher stock/bonuses options based on job performance. Furthermore, the company should concentrate on limiting overtime, as this factor exhibits the strongest correlation with attrition.
 
 ## Resources
--[Excel Analysis](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data.xlsx)
+- [Excel Analysis](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data.xlsx)
 - SQL Queries:
   - [Attrition_Overtime.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_Overtime.sql)
   - [Attrition_joblevel.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_joblevel.sql)
