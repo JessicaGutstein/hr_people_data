@@ -1,6 +1,17 @@
 # HR People Data Analysis with a focus on Attrition
 
-Author: Jessica Gutstein
+**Author: Jessica Gutstein**
+
+## Resources
+- [Excel Analysis](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data.xlsx)
+- SQL Queries:
+  - [Attrition_Overtime.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_Overtime.sql)
+  - [Attrition_joblevel.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_joblevel.sql)
+  - [Attritionbyage&income.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attritionbyage%26income.sql)
+  - [Average_TotalWorkingYears.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_TotalWorkingYears.sql)
+  - [Average_yearsinrole.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_yearsinrole.sql)
+- [Power BI Dashboard](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data%20by%20Attrition.pdf)
+- [Python Colab](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR_People_Data.ipynb)
 
 ## Overview
 Employee attrition rates are exceeding desired levels within the company. This project seeks to understand the root causes of employee attrition and identify data-driven solutions to improve employee retention and enhance overall organization performance. This project uses Excel, SQL (in BigQuery), Power BI, and Python (in Google Colab) to analyze attrition rates in a public HR dataset.
@@ -125,14 +136,3 @@ The following heatmap was created using the Pandas and Seaborn libraries in Pyth
 
 ## Conclusion
 As indicated in the findings, this organization should prioritize enhancing retention among early-career professionals through a series of incentives designed to mitigate the likelihood of their departure, such as training development, opportunities for growth, and higher stock/bonuses options based on job performance. Furthermore, the company should concentrate on limiting overtime, as this factor exhibits the strongest correlation with attrition.
-
-## Resources
-- [Excel Analysis](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data.xlsx)
-- SQL Queries:
-  - [Attrition_Overtime.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_Overtime.sql)
-  - [Attrition_joblevel.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_joblevel.sql)
-  - [Attritionbyage&income.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attritionbyage%26income.sql)
-  - [Average_TotalWorkingYears.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_TotalWorkingYears.sql)
-  - [Average_yearsinrole.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_yearsinrole.sql)
-- [Power BI Dashboard](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data%20by%20Attrition.pdf)
-- [Python Colab](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR_People_Data.ipynb)
