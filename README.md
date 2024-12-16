@@ -12,17 +12,17 @@ Create data visualizations to understand attrition causes.
 Provide business insights to improve employee retention.
 
 ## Strategy
-Approach
+### Approach
 Analyze public HR dataset to extract and create insights using Excel, SQL, PowerBi, and Python.
-Target audience
-Executive stakeholders
-HR Leadership
-HR Business Partners
-Measurement
-Correlation matrix
-Regression analysis
-Statistical summary
-Data visualization plotting
+### Target audience
+- Executive stakeholders
+- HR Leadership
+- HR Business Partners
+### Measurement
+- Correlation matrix
+- Regression analysis
+- Statistical summary
+- Data visualization plotting
 
 ## Project questions
 What is the correlation between the variables and attrition?
@@ -68,8 +68,6 @@ Moreover, looking at age and salary distributions, the employees with lower sala
 The next focus area was Years in Current Role. Once again, employees who left the company stayed an average of 2.9 years, compared to employees who stayed at an average of 4.5 years.
  
 Finally, employees who had received overtime had an attrition rate of 30% compared to employee who never received overtime at a attrition rate of 10%.
-
-
 
 The following SQL queries were used to obtain the results above (refer to them in the Github project folder):
 - Attrition_Overtime.sql
