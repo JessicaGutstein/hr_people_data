@@ -41,7 +41,7 @@ In order to analyze the data, it was necessary to clean the dataset and manipula
 The correlations can be visualized below:
 
 <p float="left" align="center">
-  <img src="/Images/correlations.png" width="400" />
+  <img src="/Images/correlations.png" width="200" />
 </p>
 
 ### What is the variable with the highest correlation with attrition?
@@ -66,7 +66,7 @@ The other variables that have an impact on attrition are related to age, job lev
 Further analysis of the data using SQL and Excel shows that employees from the lowest Job Level had the highest attrition rate at 26.34%. 
 
 <p float="left" align="center">
-  <img src="/Images/joblevels.png" width="300" />
+  <img src="/Images/joblevels.png" width="600" />
 </p>
 
 Additionally, workers who leave the company have an average of 8 years of experience, as opposed to 12 years of experience of those who stay in the company, indicating that early professionals have a higher rate of attrition. 
@@ -84,13 +84,13 @@ Moreover, looking at age and salary distributions, the employees with lower sala
 The next focus area was Years in Current Role. Once again, employees who left the company stayed an average of 2.9 years, compared to employees who stayed at an average of 4.5 years.
 
 <p float="left" align="center">
-  <img src="/Images/yearsinrole.png" width="800" />
+  <img src="/Images/yearsinrole.png" width="600" />
 </p>
  
 Finally, employees who had received overtime had an attrition rate of 30% compared to employee who never received overtime at a attrition rate of 10%.
 
 <p float="left" align="center">
-  <img src="/Images/overtime.png" width="800" />
+  <img src="/Images/overtime.png" width="600" />
 </p>
 
 The following SQL queries were used to obtain the results above (refer to them in the Github project folder):
@@ -127,12 +127,12 @@ The following heatmap was created using the Pandas and Seaborn libraries in Pyth
 As indicated in the findings, this organization should prioritize enhancing retention among early-career professionals through a series of incentives designed to mitigate the likelihood of their departure, such as training development, opportunities for growth, and higher stock/bonuses options based on job performance. Furthermore, the company should concentrate on limiting overtime, as this factor exhibits the strongest correlation with attrition.
 
 ## Resources
-Excel Analysis: HR People Data 
-SQL Queries:
-Attrition_Overtime.sql
-Attrition_joblevel.sql
-Attritionbyage&income.sql
-Average_TotalWorkingYears.sql
-Average_yearsinrole.sql
-Power BI Dashboard: People Dashboard and pdf version
-Python Colab: HR People Data Notebook
+-[Excel Analysis](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data.xlsx)
+-SQL Queries:
+--[Attrition_Overtime.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_Overtime.sql)
+--[Attrition_joblevel.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_joblevel.sql)
+--[Attritionbyage&income.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attritionbyage%26income.sql)
+--[Average_TotalWorkingYears.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_TotalWorkingYears.sql)
+--[Average_yearsinrole.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_yearsinrole.sql)
+-[Power BI Dashboard](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data%20by%20Attrition.pdf)
+-[Python Colab](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR_People_Data.ipynb)
