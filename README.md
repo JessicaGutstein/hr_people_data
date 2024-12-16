@@ -40,6 +40,10 @@ In order to analyze the data, it was necessary to clean the dataset and manipula
 
 The correlations can be visualized below:
 
+<p float="left" align="center">
+  <img src="/Images/correlations.png" width="400" />
+</p>
+
 ### What is the variable with the highest correlation with attrition?
 
 The results highlighted the most correlated variables being:
@@ -61,13 +65,33 @@ The other variables that have an impact on attrition are related to age, job lev
 
 Further analysis of the data using SQL and Excel shows that employees from the lowest Job Level had the highest attrition rate at 26.34%. 
 
+<p float="left" align="center">
+  <img src="/Images/joblevels.png" width="400" />
+</p>
+
 Additionally, workers who leave the company have an average of 8 years of experience, as opposed to 12 years of experience of those who stay in the company, indicating that early professionals have a higher rate of attrition. 
+
+<p float="left" align="center">
+  <img src="/Images/totalworkingyears.png" width="400" />
+</p>
 
 Moreover, looking at age and salary distributions, the employees with lower salaries were showing more prone to leaving the company compared to employees who stayed. For example, employees in their 30s who left were making an average of $4,794 monthly compared to those who stayed at an average of $5,733.
 
+<p float="left" align="center">
+  <img src="/Images/age_income.png" width="400" />
+</p>
+
 The next focus area was Years in Current Role. Once again, employees who left the company stayed an average of 2.9 years, compared to employees who stayed at an average of 4.5 years.
+
+<p float="left" align="center">
+  <img src="/Images/yearsinrole.png" width="400" />
+</p>
  
 Finally, employees who had received overtime had an attrition rate of 30% compared to employee who never received overtime at a attrition rate of 10%.
+
+<p float="left" align="center">
+  <img src="/Images/overtime.png" width="400" />
+</p>
 
 The following SQL queries were used to obtain the results above (refer to them in the Github project folder):
 - Attrition_Overtime.sql
@@ -83,9 +107,21 @@ Based on the analysis, the recommended actions to improve retention would be to 
 ## Data Visualization
 The way to showcase the insights found and provide daily updates was creating a PowerBi dashboard on current attrition at the company. This way key stakeholders could have real time updates and watch to see if areas of focus are improving with the recommendations given.
 
+<p float="left" align="center">
+  <img src="/Images/dashboards.png" width="400" />
+</p>
+
 Moreover, Python was used to visualize the data further. The Matplotlib and Pandas libraries were used to describe the statistics of the data and create visualizations, including a correlation heatmap and histograms. For example, the following histograms show the distribution of employees across Total Working Years, Monthly Income, Years at Company, and Age.
 
+<p float="left" align="center">
+  <img src="/Images/histograms.png" width="400" />
+</p>
+
 The following heatmap was created using the Pandas and Seaborn libraries in Python, and shows the correlation between all the variables in the dataset.
+
+<p float="left" align="center">
+  <img src="/Images/heatmap.png" width="400" />
+</p>
 
 ## Conclusion
 As indicated in the findings, this organization should prioritize enhancing retention among early-career professionals through a series of incentives designed to mitigate the likelihood of their departure, such as training development, opportunities for growth, and higher stock/bonuses options based on job performance. Furthermore, the company should concentrate on limiting overtime, as this factor exhibits the strongest correlation with attrition.
