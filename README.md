@@ -129,10 +129,10 @@ As indicated in the findings, this organization should prioritize enhancing rete
 ## Resources
 -[Excel Analysis](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data.xlsx)
 -SQL Queries:
---[Attrition_Overtime.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_Overtime.sql)
---[Attrition_joblevel.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_joblevel.sql)
---[Attritionbyage&income.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attritionbyage%26income.sql)
---[Average_TotalWorkingYears.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_TotalWorkingYears.sql)
---[Average_yearsinrole.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_yearsinrole.sql)
+  -[Attrition_Overtime.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_Overtime.sql)
+  -[Attrition_joblevel.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attrition_joblevel.sql)
+  -[Attritionbyage&income.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Attritionbyage%26income.sql)
+  -[Average_TotalWorkingYears.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_TotalWorkingYears.sql)
+  -[Average_yearsinrole.sql](https://github.com/JessicaGutstein/hr_people_data/blob/main/Average_yearsinrole.sql)
 -[Power BI Dashboard](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR%20People%20Data%20by%20Attrition.pdf)
 -[Python Colab](https://github.com/JessicaGutstein/hr_people_data/blob/main/HR_People_Data.ipynb)
