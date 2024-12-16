@@ -1,4 +1,4 @@
-### HR People Data Analysis with a focus on Attrition
+# HR People Data Analysis with a focus on Attrition
 
 Author: Jessica Gutstein
 
